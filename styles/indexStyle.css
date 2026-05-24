@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    background-image: url(../images/spacebackground.gif);
+}
+
+.graphic-1 {
+    position: absolute;
+    left: 43%;
+    top: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-2 {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-3 {
+    position: absolute;
+    top: 29%;
+    left: 17%;
+    width: fit-content;
+    height: fit-content;
+}
+.graphic-4 {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-5 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-6 {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-7 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-8 {
+    position: absolute;
+    top: 0%;
+    left:  0%;
+    width: fit-content;
+    height: fit-content;
+}
+.graphic-9 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-10 {
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.graphic-11 {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.linkBlog {
+    position: absolute;
+    left: 29%;
+    top: 80%;
+    color: lightblue;
+}
+
+.linkPluto {
+    position: absolute;
+    left: 0%;
+    top: 85%;
+    color: lightblue;
+}
+
+.ads {
+    position: absolute;
+    bottom: 0%;
+    width: fit-content;
+    height: fit-content;
+}
