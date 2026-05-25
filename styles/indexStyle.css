@@ -103,3 +103,13 @@ body {
     color: lightblue;
 }
 
+.bottom-bar {
+  overflow: hidden;
+  position: fixed;
+  height: fit-content;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
