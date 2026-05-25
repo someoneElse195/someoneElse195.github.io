@@ -91,7 +91,7 @@ body {
 
 .linkBlog {
     position: absolute;
-    left: 29%;
+    left: 33%;
     top: 80%;
     color: lightblue;
 }
@@ -103,9 +103,3 @@ body {
     color: lightblue;
 }
 
-.ads {
-    position: absolute;
-    bottom: 0%;
-    width: fit-content;
-    height: fit-content;
-}

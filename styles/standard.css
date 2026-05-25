@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "win95";
+  src: url(../w95f.woff) format('woff'),
+  url(../w95f.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  background-image: url(../images/spacebackground.gif);
+  
+  font-family: "win95";
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #ffffff;
+  margin: 6px 0;
+}
+
+
+p {
+    text-indent: 50px;
+}
+
+.main {
+    margin-inline: auto;
+    max-inline-size: 80vw;
+    padding: 15vh;
+}
+
+.content {
+  background-color: #c3c3c3;
+  min-height: 50vh;
+  padding: 2px;
+  box-shadow:
+    inset -1px -1px 0 #0a0a0a,
+    inset  1px  1px 0 #ffffff,
+    inset -2px -2px 0 #808080,
+    inset  2px  2px 0 #dfdfdf;
+}
+
+.header {
+  height: fit-content;
+  width: 98.5%;
+  background-color: #0827f5;
+  display: flex;
+  margin: auto;
+  color: #fdffff;
+  padding-left: 5px;
+  padding-top: 2px;
+  font-size: 20px;
+}
+
+.close-butt {
+  margin: 1px;
+  margin-right: 2px;
+  margin-left: auto;
+  background: #c0c0c0;
+  color: #000;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  box-shadow:
+    inset -1px -1px 0 #0a0a0a,
+    inset  1px  1px 0 #ffffff,
+    inset -2px -2px 0 #808080,
+    inset  2px  2px 0 #dfdfdf;
+}
+
+.close-butt:active {
+  box-shadow:
+    inset  1px  1px 0 #0a0a0a,
+    inset -1px -1px 0 #ffffff,
+    inset  2px  2px 0 #808080,
+    inset -2px -2px 0 #dfdfdf;
+  transform: translate(1px, 1px);
+}
+
+.taskbar {
+  overflow: hidden;
+  position: fixed;
+  height: fit-content;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #c3c3c3;
+  display: flex;
+  box-shadow:
+    inset  1px  1px 0 #ffffff,
+    inset  2px  2px 0 #dfdfdf;
+
+}
+
+.start {
+  background: #c0c0c0;
+  border: none;
+  padding: 3px;
+  padding-right: 4px;
+  margin: 4px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow:
+    inset -1px -1px 0 #0a0a0a,
+    inset  1px  1px 0 #ffffff,
+    inset -2px -2px 0 #808080,
+    inset  2px  2px 0 #dfdfdf;
+  cursor: pointer;
+}
+
+.start:active {
+  box-shadow:
+    inset  1px  1px 0 #0a0a0a,
+    inset -1px -1px 0 #ffffff,
+    inset  2px  2px 0 #808080,
+    inset -2px -2px 0 #dfdfdf;
+  transform:translate(1px,1px)
+}
+
+.start-icon {
+  position: relative;
+  top: 1px;
+  padding-right: 2px;
+}
+
+.taskbar-tab {
+  background: #fdffff;
+  border: none;
+  padding: 3px;
+  margin: 4px;
+  width: 150px;
+  height: fit-content;
+  box-shadow:
+    inset  1px  1px 0 #0a0a0a,
+    inset -1px -1px 0 #ffffff,
+    inset  2px  2px 0 #808080,
+    inset -2px -2px 0 #dfdfdf;
+  cursor: pointer;
+}
+
+.tab-icon {
+  position: relative;
+  top: 2px;
+  padding-right: 3px;
+  padding-left: 4px;
+}
+
+.window-main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.title {
+  font-size: 32px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.tools {
+
+}
+
+.window-content {
+  margin-top: 10px;
+}
+
+.window-columns {
+  display: grid;
+  gap: 12px;
+  align-items: start;
+}
+
+.window-columns.image-text {
+  grid-template-columns: minmax(0, 200px) 1fr;
+}
+
+.window-columns.two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.window-columns.sidebar {
+  grid-template-columns: 160px 1fr;
+}
+
+.column-image {
+  width: 100%;
+  height: auto;
+}
