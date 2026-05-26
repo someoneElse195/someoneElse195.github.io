@@ -6,9 +6,10 @@
     <title>Pluto</title>
     <link rel="stylesheet" href="styles/standard.css">
     <link rel="icon" type="image/x-icon" href="images/pluto.png">
+    <script src="script/script.js"></script>
 </head>
 
-<body>    
+<body onload="clock()">
     <div class="main">
       <div class="content">
         <div class="header">
@@ -36,6 +37,7 @@
     <div class="taskbar">
       <div class="start" onclick="window.location.href='index.html';"><img src="images/pngegg.png" width="22px" height="15px" class="start-icon">Start</div>
       <div class="taskbar-tab"><img src="images/pluto.png" width="15px" height="15px" class="tab-icon">Pluto</div>
+      <div class="time-date" id="time">0</div>
     </div>
 </body>
 

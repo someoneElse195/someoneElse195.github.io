@@ -146,6 +146,24 @@ p {
   cursor: pointer;
 }
 
+.time-date {
+  border: none;
+  margin: 4px;
+  margin-left: auto;
+  padding: 3px;
+  height: fit-content;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    inset  1px  1px 0 #0a0a0a,
+    inset -1px -1px 0 #ffffff,
+    inset  2px  2px 0 #808080,
+    inset -2px -2px 0 #dfdfdf;
+
+}
+
 .tab-icon {
   position: relative;
   top: 2px;
