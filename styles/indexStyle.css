@@ -118,4 +118,5 @@ body {
 .marquee {
   position: absolute;
   height: 99vh;
+  z-index: -1;
 }
