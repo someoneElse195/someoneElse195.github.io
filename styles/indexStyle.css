@@ -114,3 +114,8 @@ body {
   justify-content: center;
   margin-bottom: 10px;
 }
+
+.marquee {
+  position: absolute;
+  height: 99vh;
+}
